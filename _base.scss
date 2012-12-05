@@ -71,6 +71,15 @@ a			{color:$link; text-decoration:none;
 #col3 				{float:right; width:20%;}
 #col2Large 		{float:left; width:78.5%;}
 #Article 			{float:left; margin:0 1% 0 0; width:70%; min-height:540px; position:relative;}
+#col1 				{float:left; width:17%;}
+#col2 				{float:left; margin:0 0 0 1%; padding:0 1%; width:59%; position:relative; box-shadow:-2px 4px 8px #ccc; background:$offwhite; border-radius:10px 10px 2px 2px; z-index:10;}
+#col3 				{float:right; width:21%; position:relative; z-index:5; background:#f7f7f7;}
+#col3:before	{content:" "; margin-bottom:10px; display:block; width:99%; height:35px; border-radius:0 10px 0 0; @include gradient(top, #666665, #b2b2b2);}
+.storyContentWrapper h1, .content h1, #top h1, .contactTitle, #monthDetail h1	{margin-left:-1.7%; padding-left:1.7%; width:104%; color:#fff; font-weight:normal; text-shadow:1px 1px 3px #111; border-radius:10px 0 0 0; white-space:nowrap; @include gradient(top, #666665, #b2b2b2);}
+#storyContentWrapper h1 {margin-left:-2.1%; padding-left:2.1%; width:102.1%; border-radius:10px 10px 0 0; white-space:normal;}
+#col2Large 		{float:left; margin-left:1%; width:78.5%;}
+#col2Large .storyContentWrapper h1, #col2Large .content h1 {margin:0; padding:0; width:auto; height:auto; color:#111; border-radius:0; text-shadow:none; @include gradient(top, #eee, #eee);}
+#Article 			{float:left; margin:0 1% 0 0; width:70%; min-height:540px; position:relative; box-shadow:1px 2px 10px #ccc; background:$offwhite; border-radius:10px 10px 2px 2px;}
 #sidebar 			{float:left; width:29%;}
 
 
